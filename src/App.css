@@ -1,0 +1,19 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+ul{
+  list-style: none;
+}
+li{
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+.btn {
+  width: fit-content;
+  height: fit-content;
+}
+.navBar{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.575);
+}
