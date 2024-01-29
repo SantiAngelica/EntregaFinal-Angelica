@@ -1,0 +1,130 @@
+[
+    {
+        "marca": "nike",
+        "modelo": "Air Force 1 07 LV8",
+        "precio": 200000,
+        "detalle": "Nike Air Force negras con zuela blanca",
+        "id": 1,
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/681249-1000-1000?v=638224566246700000&width=1000&height=1000&aspect=true"
+    },
+    {
+        "marca": "jordan",
+        "modelo": "Air Jordan 1 Zoom CMFT 2",
+        "precio": 238000,
+        "detalle": "Air Jordan 1 beige y detalles naranjas",
+        "id": 5,
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/659859-1000-1000?v=638221826927100000&width=1000&height=1000&aspect=true"
+    },
+    {
+        "marca": "converse",
+        "modelo": "Star Player",
+        "precio": 172000,
+        "detalle": "Un estilo para todos los dias con un toque deportivo.",
+        "id": 9,
+        "src": "https://backend.converse.com.ar/media/image/d9/0c/5e0e7bb6944a1dd8097bdff8a784.jpg"
+    },
+    {
+        "marca": "adidas",
+        "modelo": "ZAPATILLAS RUNFALCON 3",
+        "precio": 92000,
+        "detalle": "Zapatillas deportivas con tonos de negro",
+        "id": 13,
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/89bd84dc4c8049c9a646af8f0077438e_9366/Zapatillas_Runfalcon_3_Negro_HP7554_01_standard.jpg"
+    },
+    {
+        "marca": "nike",
+        "modelo": "Air Force 1 '07",
+        "precio": 180000,
+        "detalle": "Nike Air Force blancas",
+        "id": 2,
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/155411-1000-1000?v=638086277536700000&width=1000&height=1000&aspect=true"
+    },
+    {
+        "marca": "jordan",
+        "modelo": "Air Jordan 1 Low OG",
+        "precio": 223000,
+        "detalle": "Air Jordan 1 low rojas y negras",
+        "id": 6,
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/730429-1000-1000?v=638308266751400000&width=1000&height=1000&aspect=true"
+    },
+    {
+        "marca": "converse",
+        "modelo": "ALL STAR BB CX",
+        "precio": 215000,
+        "detalle": "All Star grises con detalles amarillos",
+        "id": 10,
+        "src": "https://backend.converse.com.ar/media/image/18/c1/9aeba47c91ed6cecea2cfcf6154a.jpg"
+    },
+    {
+        "marca": "adidas",
+        "modelo": "ZAPATILLAS PARK STREET",
+        "precio": 103000,
+        "detalle": "Zapatillas deportivas blancas con detalles rosa",
+        "id": 14,
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a65b59e7da5443899a1fec46ef6a5606_9366/Zapatillas_Park_Street_Blanco_IG9850_01_standard.jpg"
+    },
+    {
+        "marca": "nike",
+        "modelo": "Air Force 1 Low Retro",
+        "precio": 224000,
+        "detalle": "Nike Air Force Naranjas",
+        "id": 3,
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/629701-1000-1000?v=638210601551400000&width=1000&height=1000&aspect=true"
+    },
+    {
+        "marca": "jordan",
+        "modelo": "Air Jordan 1 Mid SE",
+        "precio": 220000,
+        "detalle": "Air Jordan 1 Mid tonos negros",
+        "id": 7,
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/680007-1000-1000?v=638224547232670000&width=1000&height=1000&aspect=true"
+    },
+    {
+        "marca": "converse",
+        "modelo": "Chuck Taylor All Star",
+        "precio": 150000,
+        "detalle": "Podríamos decir que fueron creadas hace más de 100 años.",
+        "id": 11,
+        "src": "https://backend.converse.com.ar/media/image/5e/38/f9abdb5d01f6af5c816e9f258e55.jpg"
+    },
+    {
+        "marca": "adidas",
+        "modelo": "ZAPATILLAS GAZELLE BOLD",
+        "precio": 190000,
+        "detalle": "Zapatillas negras con detalles blancos",
+        "id": 15,
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/763fb5a2d82d448ca62baf4600f657c6_9366/Zapatillas_Gazelle_Bold_Negro_HQ6912_01_standard.jpg"
+    },
+    {
+        "marca": "nike",
+        "modelo": "Air Huarache Premium",
+        "precio": 194000,
+        "detalle": "Nike Air Huarache beige y detalles turquesas",
+        "id": 4,
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/629701-1000-1000?v=638210601551400000&width=1000&height=1000&aspect=true"
+    },
+    {
+        "marca": "jordan",
+        "modelo": "Air Jordan Dub Zero",
+        "precio": 247000,
+        "detalle": "Air Jordan Mid negras y detalles beige",
+        "id": 8,
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/528865-1000-1000?v=638161343088200000&width=1000&height=1000&aspect=true"
+    },
+    {
+        "marca": "converse",
+        "modelo": "Chuck Taylor All Star Seasonal Color",
+        "precio": 200000,
+        "detalle": "Converse clasicas color turquesa",
+        "id": 12,
+        "src": "https://backend.converse.com.ar/media/image/03/aa/9b797611be8ae97f4efaabfb6600.jpg"
+    },
+    {
+        "marca": "adidas",
+        "modelo": "ZAPATILLAS AVERY",
+        "precio": 125000,
+        "detalle": "Zapatillas deportivas naranja fluroescente",
+        "id": 16,
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0ddbc92f66704b929407af3f00ebc828_9366/Zapatillas_Avery_Naranja_ID9424_01_standard.jpg"
+    }
+]

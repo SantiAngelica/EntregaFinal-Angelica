@@ -17,3 +17,35 @@ li{
 .navBar{
   border-bottom: 1px solid rgba(0, 0, 0, 0.575);
 }
+.card{
+  width: 300px;
+}
+.figure-card{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.card-img-top{
+  height: 200px;
+  width: auto;
+}
+.card-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.card-detail{
+  width: 900px;
+}
+.img-detail{
+  height: 400px;
+  width: auto;
+}
+.figure-detail{
+  width: fit-content;
+}
+.body-detail{
+  width: fit-content;
+}

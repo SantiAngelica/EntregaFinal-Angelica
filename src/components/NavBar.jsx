@@ -1,26 +1,27 @@
+import { Link } from "react-router-dom"
 import CardWidget from "./CartWidget"
 import ItemListContainer from "./ItemListContainer"
+import Logo from "./Logo"
 
 const NavBar = () => {
     return (
         <div className="navBar flex-row d-flex container mt-2 justify-content-between">
             <div className="flex-row d-flex ">
-                <ItemListContainer greeting={"FunesSnicker"} />
+                <Link to='/'>
+                    <Logo nombre={"Funes Snickers"} />
+                </Link>
                 <ul className="flex-row mb-0 d-flex">
                     <li>
-                        <a href="" className="p-3">Nike</a>
+                        <Link to='/productos/nike' className="p-3">Nike</Link>
                     </li>
                     <li>
-                        <a href="" className="p-3">Jordan</a>
+                        <Link to='/productos/jordan' className="p-3">Jordan</Link>
                     </li>
                     <li>
-                        <a href="" className="p-3">Converse</a>
+                        <Link to='/productos/converse' className="p-3">Converse</Link>
                     </li>
                     <li>
-                        <a href="" className="p-3">Adidas</a>
-                    </li>
-                    <li>
-                        <a href="" className="p-3">Vans</a>
+                        <Link to='/productos/adidas' className="p-3">Adidas</Link>
                     </li>
                 </ul>
             </div>
