@@ -3,7 +3,6 @@ import Item from "./Item"
 const ItemList = ({ productos, marca }) => {
 
     return (
-
         productos.map(producto => {
             if(marca){
                 if(producto.marca == marca)
