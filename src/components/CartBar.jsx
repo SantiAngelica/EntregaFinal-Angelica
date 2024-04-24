@@ -38,7 +38,7 @@ const CartBar = () => {
           </button>
         </Link>
         <button 
-        className={!precioTotal() ? 'btn btn-danger ms-3 boton-cart desactivado'  : 'btn btn-danger ms-3 boton-cart' }
+        className={!precioTotal() ? 'btn btn-danger boton-cart desactivado'  : 'btn btn-danger  boton-cart' }
         onClick={alerta}>
           <img src={trash} alt="" className='img-trash' />
         </button>

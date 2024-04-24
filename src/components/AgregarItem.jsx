@@ -13,9 +13,9 @@ const AgregarItem = ({producto}) => {
     return (
         <div className="box-contador d-flex row row-gap-3">
             <div className="contador1">
-                <button onClick={restarContador}>-</button>
-                <span className="mx-3">{contador}</span>
-                <button onClick={sumarContador}>+</button>
+                <button onClick={restarContador} className="signos">-</button>
+                <span className="cuenta">{contador}</span>
+                <button onClick={sumarContador}  className="signos">+</button>
             </div>
             <div className="contador2">
                 <button className="px-2" onClick={() => {agregarAlCarrito(producto, contador)}}>Agregrar al carrito</button>

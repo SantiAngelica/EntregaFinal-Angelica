@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -27,9 +27,15 @@ li {
 .navBar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.575);
 }
-
+.box-cart{
+  margin-left:469px;
+}
 .card {
   width: 300px;
+}
+.cuenta{
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .figure-card {
@@ -84,6 +90,10 @@ li {
 
 }
 
+.btn-success {
+  margin-right: 10px;
+}
+
 .box-contador button {
   border-radius: 10px
 }
@@ -107,6 +117,9 @@ li {
     border-bottom-left-radius: 15px;
   }
 
+}
+.navbarLink{
+  padding: 15px;
 }
 
 .card-producto-carrito {
@@ -177,6 +190,10 @@ li {
   padding: 5%;
 }
 
+.figure-form {
+  width: fit-content;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -236,6 +253,9 @@ li {
   pointer-events: none;
 }
 
+.navbar {
+  padding-left: 20px;
+}
 
 
 .reservados {
@@ -245,16 +265,302 @@ li {
 .redes img {
   height: 24px;
 }
-.img-form{
-  height: 70px;
+
+.card-form {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  padding: 10px;
 }
-.card-form h5{
+
+.figure-form {
+  margin: 0;
+}
+
+.card-body {
+  margin-left: 10px;
+  width: fit-content;
+}
+
+.img-form {
+  height: 100px;
+}
+
+.card-form h5 {
   font-size: 1rem;
 }
-.card-form p{
+
+.card-form p {
   font-size: 0.8rem;
 }
-.box-prod-form{
+
+.box-prod-form {
   display: flex;
   flex-direction: column;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* MEDIA QUERYS */
+@media (max-width:1200px) {
+  .box-cart{
+    margin-left: 300px;
+  }
+  .card {
+    width: 250px;
+  }
+
+  .card-form {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 350px;
+  }
+
+  .figure-form {
+    margin: 0;
+  }
+
+  .card-body {
+    margin-left: 10px;
+  }
+
+  .card-detail {
+    width: 900px;
+  }
+}
+
+
+@media (max-width:992px) {
+  .card-box {
+    grid-template-columns: 1fr 1fr;
+    gap: 20;
+  }
+  .box-cart{
+    margin-left: 60px;
+  }
+
+  .card {
+    width: 300px;
+    margin: auto;
+  }
+
+  .card-detail {
+    width: 700px;
+  }
+
+  .img-detail {
+    height: 250px;
+  }
+}
+
+
+@media (max-width:768px) {
+  .box-cart{
+    margin-left: 58px;
+  }
+  .navbar {
+    padding-left: 20px;
+  }
+
+  .navbarLink {
+    font-size: .8rem;
+  }
+
+  .tittle {
+    font-size: 1.07311rem;
+    margin-bottom: 0;
+  }
+
+  .card-box {
+    grid-template-columns: 1fr;
+    gap: 20;
+  }
+
+  .card {
+    width: 350px;
+
+    .img-list {
+      width: 300px;
+      height: auto;
+    }
+  }
+
+  .card-detail {
+    width: fit-content;
+
+    .figure-detail {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .img-detail {
+      height: 200px;
+      width: auto;
+    }
+  }
+
+  .body-detail {
+    h5 {
+      font-size: .9em;
+    }
+
+    p {
+      font-size: .9em;
+    }
+
+    button {
+      font-size: .9em;
+    }
+  }
+
+  .boton-cart {
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    padding: 0;
+
+    .img-trash {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  .cart-bar {
+    padding-bottom: 7px;
+
+    h2 {
+      font-size: 1.2em;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .card-form {
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    display: flex;
+
+    h5 {
+      width: fit-content;
+    }
+
+    p {
+      width: fit-content;
+    }
+  }
+
+  .img-form {
+    height: 100px;
+    width: auto;
+  }
+}
+
+@media (max-width:720px) {
+  .card-detail {
+
+    .img-detail {
+      height: 190px;
+    }
+  }
+  .card-item-carrito{
+    height: fit-content;
+    figure{
+      height: fit-content;
+      width: fit-content;
+    }
+    h2{
+      font-size: .9em;
+    }
+    p{
+      font-size: .7em;
+    }
+    img{
+      height: 70px;
+    }
+  }
+}
+@media (max-width:400px) {
+  .navBar{
+    flex-direction: column;
+    align-items: center;
+    .navbarText{
+      justify-content: space-around;
+      width: 100%;
+    }
+    .navbarLink{
+      padding: 2px;
+    }
+  }
+  .box-cart{
+    height: 20px;
+    margin: 0;
+    position: absolute;
+    right: 15px;
+    top: 17px;
+  }
+  .tittle{
+    font-size: 1.8em;
+  }
+  .card-detail{
+    .cuenta{
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: .7em;
+      height: 100%;
+    }
+    h5{
+      font-size: .6em;
+    }
+    p{
+      font-size: .6em;
+    }
+    .img-detail{
+      width: auto;
+      height: 120px;
+    }
+    .signos{
+      width: 18px;
+      height: 18px;
+    }
+    button{
+      font-size: .5em;
+    }
+  }
+  .card-precio-carrito{
+    margin-right: 10px;
+    .btn-close{
+      margin-left: 10px;
+    }
+  }
+  .card-item-carrito{
+    h2{
+      font-size: .6em;
+      margin-left: 5px;
+    }
+    p{
+      font-size: .6em;
+    }
+  }
+  .form{
+    width: 350px;
+    padding: 20px;
+    padding-top: 40px;
+    .input-form{
+      height: 20px;
+      font-size: .8em;
+      padding: 10px;
+    }
+    .boton-enviar{
+      height: 30px;
+      width: 70px;
+      padding: 0;
+    }
+  }
 }

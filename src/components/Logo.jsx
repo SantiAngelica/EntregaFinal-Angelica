@@ -1,6 +1,6 @@
 const Logo = ({nombre}) => {
     return(
-        <h1>
+        <h1 className="tittle">
             {nombre}
         </h1>
     )
