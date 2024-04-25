@@ -486,7 +486,7 @@ li {
     }
   }
 }
-@media (max-width:400px) {
+@media (max-width:540px) {
   .navBar{
     flex-direction: column;
     align-items: center;
